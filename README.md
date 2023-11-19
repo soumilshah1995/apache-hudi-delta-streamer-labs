@@ -58,7 +58,7 @@ spark-submit \
   --properties-file spark-config.properties \
   --master 'local[*]' \
   --executor-memory 1g \
-  path/to/hudi-utilities-slim-bundle_2.12-0.14.0.jar \
+ jar/hudi-utilities-slim-bundle_2.12-0.14.0.jar \
   --table-type COPY_ON_WRITE \
   --op UPSERT \
   --source-ordering-field replicadmstimestamp \
