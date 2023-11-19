@@ -1,4 +1,6 @@
-![Screenshot 2023-11-19 at 11.14.55 AM.png](..%2F..%2F..%2FDesktop%2FScreenshot%202023-11-19%20at%2011.14.55%20AM.png)
+
+
+<img width="952" alt="Screenshot 2023-11-19 at 11 14 55 AM" src="https://github.com/soumilshah1995/apache-hudi-delta-streamer-labs/assets/39345855/80dfe3d2-a11b-4d47-8c67-6f05c5259a54">
 
 
 # Hudi Example Setup
