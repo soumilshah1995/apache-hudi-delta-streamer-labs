@@ -1,0 +1,7 @@
+hoodie.datasource.write.keygenerator.class=org.apache.hudi.keygen.SimpleKeyGenerator
+hoodie.datasource.write.recordkey.field=invoiceid
+hoodie.datasource.write.partitionpath.field=destinationstate
+hoodie.streamer.source.dfs.root=file:///Users/soumilnitinshah/Downloads/samplecsvdata
+hoodie.datasource.write.precombine.field=replicadmstimestamp
+hoodie.deltastreamer.csv.header=true
+hoodie.deltastreamer.csv.sep=\t
