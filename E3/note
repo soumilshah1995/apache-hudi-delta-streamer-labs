@@ -1,0 +1,10 @@
+Learn How to Ingest multiple tables using Hudi using Hudi MultiTable Delta Streamer
+
+configfolder/
+    <DB>_<TBL>_config.properties
+
+    default_customers_config.properties
+    default_orders_config.properties
+
+    common config file
+    source.properties
