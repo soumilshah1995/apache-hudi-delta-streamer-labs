@@ -9,3 +9,20 @@ services:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
       - POSTGRES_DB=postgres
+
+
+
+# Windows
+
+# version: "3.7"
+
+# services:
+#   postgres:
+#     image: postgres:13  # Use a compatible x86_64 image
+#     ports:
+#       - 5432:5432
+#     environment:
+#       - POSTGRES_USER=postgres
+#       - POSTGRES_PASSWORD=postgres
+#       - POSTGRES_DB=postgres
+      
