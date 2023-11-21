@@ -8,3 +8,13 @@ configfolder/
 
     common config file
     source.properties
+
+
+
+Hey guys can anyone help me how to navigate
+Hudi website to find all settings related to Hudi Delta Streamer
+for paticular source
+Example Say class org.apache.hudi.utilities.sources.CsvDFSSource
+what are all Hudi Setting and config available i had to go to GH issue to see config
+
+settings or example for JDBC incremnetal Puller

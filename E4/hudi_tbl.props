@@ -1,0 +1,14 @@
+hoodie.datasource.write.keygenerator.class=org.apache.hudi.keygen.SimpleKeyGenerator
+hoodie.datasource.write.recordkey.field=salesid
+hoodie.datasource.write.partitionpath.field=destinationstate
+hoodie.datasource.write.precombine.field=updated_at
+hoodie.streamer.jdbc.url=jdbc:postgresql://localhost:5432/postgres
+hoodie.streamer.jdbc.user=postgres
+hoodie.streamer.jdbc.password=postgres
+hoodie.streamer.jdbc.driver.class=org.postgresql.Driver
+hoodie.streamer.jdbc.table.name=sales
+hoodie.streamer.jdbc.table.incr.column.name=updated_at
+
+hoodie.streamer.jdbc.incr.pull=true
+# hoodie.streamer.jdbc.incr.fallback.to.full.fetch to true means that it will attempt incremental fetch, and if there are errors, it will fallback to a full fetch.
+hoodie.streamer.jdbc.incr.fallback.to.full.fetch=true
