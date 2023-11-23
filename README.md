@@ -2,6 +2,27 @@
 
 <img width="952" alt="Screenshot 2023-11-19 at 11 14 55 AM" src="https://github.com/soumilshah1995/apache-hudi-delta-streamer-labs/assets/39345855/80dfe3d2-a11b-4d47-8c67-6f05c5259a54">
 
+# Delta Streamer Series
+
+Welcome to the Delta Streamer Series, a collection of hands-on guides and tutorials for Hudi Streamer (Delta Streamer). In this series, you'll learn various techniques for local ingestion from different sources, including Parquet and CSV. Additionally, explore advanced topics like ingesting data from multiple tables and performing incremental data pulls from Postgres to Hudi using Delta Streamer.
+
+## Video Tutorials
+
+1. **Local Ingestion from Parquet Source**
+    - [Watch Tutorial #1](https://www.youtube.com/watch?v=s42-mGktIpg&list=PLL2hlSFBmWwz2lp7K8dMk8hWV1p_SNeBQ&index=1&t=1s&pp=gAQBiAQB)
+
+2. **Local Ingestion from CSV Source**
+    - [Watch Tutorial #2](https://www.youtube.com/watch?v=z1NAmGGHbHU&list=PLL2hlSFBmWwz2lp7K8dMk8hWV1p_SNeBQ&index=2)
+
+3. **Learn How to Ingest Multiple Tables using Hudi MultiTable Delta Streamer**
+    - [Watch Tutorial #3](https://www.youtube.com/watch?v=mfGb38TQmDY&list=PLL2hlSFBmWwz2lp7K8dMk8hWV1p_SNeBQ&index=3)
+
+4. **RFC-14: Step-by-Step Guide for Incremental Data Pull from Postgres to Hudi using DeltaStreamer**
+    - [Watch Tutorial #4](https://www.youtube.com/watch?v=kqQ0SVwfBig&list=PLL2hlSFBmWwz2lp7K8dMk8hWV1p_SNeBQ&index=4)
+
+5. **Learn How to Ingest Data Into Hudi Tables using Delta Streamer in continuous Mode and SQL transformer**
+    - [Watch Tutorial #5](<>) <!-- Replace with the actual link when available -->
+
 
 # Hudi Example Setup
 
