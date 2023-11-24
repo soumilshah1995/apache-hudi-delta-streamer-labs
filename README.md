@@ -21,7 +21,7 @@ Welcome to the Delta Streamer Series, a collection of hands-on guides and tutori
     - [Watch Tutorial #4](https://www.youtube.com/watch?v=kqQ0SVwfBig&list=PLL2hlSFBmWwz2lp7K8dMk8hWV1p_SNeBQ&index=4)
 
 5. **Learn How to Ingest Data Into Hudi Tables using Delta Streamer in continuous Mode and SQL transformer**
-    - [Watch Tutorial #5](<>) <!-- Replace with the actual link when available -->
+    - [Watch Tutorial #5](https://www.youtube.com/watch?v=QVTSKf24heU&t=210s) <!-- Replace with the actual link when available -->
 
 
 # Hudi Example Setup
