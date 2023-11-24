@@ -1,0 +1,13 @@
+{
+  "type": "record",
+  "name": "Order",
+  "fields": [
+    {"name": "order_id", "type": "string"},
+    {"name": "name", "type": "string"},
+    {"name": "order_value", "type": "string"},
+    {"name": "priority", "type": ["null", "string"], "default": null},
+    {"name": "order_date", "type": "string"},
+    {"name": "customer_id", "type": "string"},
+    {"name": "ts", "type": "string"}
+  ]
+}
