@@ -1,0 +1,41 @@
+version: '3'
+
+services:
+  fast-data-dev:
+    image: dougdonohoe/fast-data-dev
+    ports:
+      - "3181:3181"
+      - "3040:3040"
+      - "7081:7081"
+      - "7082:7082"
+      - "7083:7083"
+      - "7092:7092"
+      - "8081:8081"
+    environment:
+      - ZK_PORT=3181
+      - WEB_PORT=3040
+      - REGISTRY_PORT=8081
+      - REST_PORT=7082
+      - CONNECT_PORT=7083
+      - BROKER_PORT=7092
+      - ADV_HOST=127.0.0.1
+
+  postgres:
+    image: postgres:latest
+    restart: always
+    container_name: postgres
+    hostname: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+    command: ["postgres", "-c", "wal_level=logical"]
+    healthcheck:
+      test: ["CMD", "psql", "-U", "postgres", "-c", "SELECT 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    volumes:
+      - ./scripts:/docker-entrypoint-initdb.d

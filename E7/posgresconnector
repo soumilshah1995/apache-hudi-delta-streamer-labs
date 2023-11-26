@@ -1,0 +1,11 @@
+name=PostgresConnector
+connector.class=io.debezium.connector.postgresql.PostgresConnector
+database.user=postgres
+database.dbname=postgres
+tasks.max=1
+database.hostname=postgres
+database.password=postgres
+database.server.name=postgres
+table.include.list=public.sales
+database.port=5432
+plugin.name=pgoutput
