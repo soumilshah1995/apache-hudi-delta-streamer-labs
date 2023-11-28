@@ -1,0 +1,42 @@
+
+# ====================================================================
+# INgest data
+# ====================================================================
+spark-submit \
+    --class org.apache.hudi.utilities.streamer.HoodieStreamer \
+    --packages org.apache.hudi:hudi-spark3.4-bundle_2.12:0.14.0 \
+    --properties-file spark-config.properties \
+    --master 'local[*]' \
+    --executor-memory 1g \
+    jar/hudi-utilities-slim-bundle_2.12-0.14.0.jar \
+    --continuous \
+    --source-limit 4000000 \
+    --min-sync-interval-seconds 20 \
+    --table-type COPY_ON_WRITE \
+    --op UPSERT \
+    --source-ordering-field ts \
+    --source-class org.apache.hudi.utilities.sources.CsvDFSSource \
+    --target-base-path file:///Users/soumilshah/IdeaProjects/SparkProject/apache-hudi-delta-streamer-labs/E8/hudidb/orders \
+    --target-table orders \
+    --props hudi_tbl.props
+
+
+spark-submit \
+  --class org.apache.hudi.utilities.HoodieClusteringJob \
+  --packages org.apache.hudi:hudi-spark3.4-bundle_2.12:0.14.0 \
+  --properties-file spark-config.properties \
+  --master 'local[*]' \
+  --executor-memory 3g \
+   jar/hudi-utilities-slim-bundle_2.12-0.14.0.jar \
+  --mode scheduleAndExecute \
+  --base-path file:///Users/soumilshah/IdeaProjects/SparkProject/apache-hudi-delta-streamer-labs/E8/hudidb/orders  \
+  --table-name orders \
+  --hoodie-conf hoodie.clustering.async.enabled=true \
+  --hoodie-conf hoodie.clustering.async.max.commits=2 \
+  --hoodie-conf hoodie.clustering.plan.strategy.target.file.max.bytes=1073741824 \
+  --hoodie-conf hoodie.clustering.plan.strategy.small.file.limit=629145600 \
+  --hoodie-conf hoodie.clustering.execution.strategy.class=org.apache.hudi.client.clustering.run.strategy.SparkSortAndSizeExecutionStrategy \
+  --hoodie-conf hoodie.clustering.plan.strategy.sort.columns=order_date \
+  --hoodie-conf 'hoodie.clustering.plan.strategy.partition.regex.pattern=^2023-10-[0-9][0-9]$'   \
+  --hoodie-conf hoodie.write.concurrency.mode=optimistic_concurrency_control \
+  --hoodie-conf hoodie.write.lock.provider=org.apache.hudi.client.transaction.lock.InProcessLockProvider

@@ -1,0 +1,14 @@
+hoodie.datasource.write.recordkey.field=order_id
+hoodie.datasource.write.partitionpath.field=order_date
+hoodie.streamer.source.dfs.root=file:///Users/soumilshah/IdeaProjects/SparkProject/apache-hudi-delta-streamer-labs/E8/sampledata/orders
+hoodie.datasource.write.precombine.field=ts
+
+hoodie.clustering.inline=false
+hoodie.clustering.async.enabled=true
+
+hoodie.parquet.small.file.limit=0
+
+hoodie.write.concurrency.mode=optimistic_concurrency_control
+hoodie.write.lock.provider=org.apache.hudi.client.transaction.lock.InProcessLockProvider
+hoodie.deltastreamer.csv.header=true
+hoodie.deltastreamer.csv.sep=\t
