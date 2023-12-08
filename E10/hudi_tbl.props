@@ -1,0 +1,11 @@
+# Hoodie Write Configs
+hoodie.datasource.write.recordkey.field=order_id
+hoodie.datasource.write.partitionpath.field=order_date
+hoodie.datasource.write.precombine.field=ts
+
+# Delta Streamer Configs
+hoodie.streamer.source.dfs.root=file://///Users/soumilshah/IdeaProjects/SparkProject/DeltaStreamer/sampledata/orders
+
+# CSV Configs
+hoodie.deltastreamer.csv.header=true
+hoodie.deltastreamer.csv.sep=\t
