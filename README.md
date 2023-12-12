@@ -6,22 +6,21 @@
 
 Welcome to the Delta Streamer Series, a collection of hands-on guides and tutorials for Hudi Streamer (Delta Streamer). In this series, you'll learn various techniques for local ingestion from different sources, including Parquet and CSV. Additionally, explore advanced topics like ingesting data from multiple tables and performing incremental data pulls from Postgres to Hudi using Delta Streamer.
 
-## Video Tutorials
+| Title                                                                                                                     | Hyperlink                                |
+|---------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
+| Hudi Streamer (Delta Streamer) Hands-On Guide: Local Ingestion from Parquet Source #1                                  | [Link](https://www.youtube.com/watch?v=s42-mGktIpg)     |
+| Hudi Streamer Delta Streamer Hands On Guide: Local Ingestion from CSV Source #2                                           | [Link](https://www.youtube.com/watch?v=z1NAmGGHbHU)     |
+| Learn How to Ingest Multiple Tables using Hudi MultiTable Delta Streamer #3                                              | [Link](https://www.youtube.com/watch?v=mfGb38TQmDY)     |
+| RFC-14: Step-by-Step Guide for Incremental Data Pull from Postgres to Hudi using DeltaStreamer (#4)                      | [Link](https://www.youtube.com/watch?v=kqQ0SVwfBig)     |
+| Learn How to Ingest Data Into Hudi Table using Delta Streamer in continuous Mode & SQL transformer#5                      | [Link](https://www.youtube.com/watch?v=QVTSKf24heU)     |
+| Learn How to use DeltaStreamer and ingest data from Kafka Topic Hands on Labs #6                                          | [Link](https://www.youtube.com/watch?v=uoIpw8lTBV0)     |
+| Real-Time Data: Postgres, Debezium, Kafka, Schema Registry, Delta Streamer #7 A                                             | [Link](https://www.youtube.com/watch?v=gypBM9Jpj9I)     |
+| Real-Time Data: Postgres, Debezium, Kafka, Schema Registry, Delta Streamer #7B Complete Video                             | [Link](https://www.youtube.com/watch?v=GIs-Y1VYIY8)     |
+| Learn How to Run Clustering in Async Mode with Delta Streamer in Continuous Mode | Hands on Labs |#8                       | [Link](https://www.youtube.com/watch?v=7WP4bxj_P3s)     |
+| Learn How to use MinIO and Apache Hudi Delta Streamer with Hands on Lab #9                                                 | [Link](https://www.youtube.com/watch?v=bPR17-wvIXI)     |
+| How to use DeltaStreamer to Read Data From Hudi Source in Incremental Fashion (Bronze to Silver) #10                      | [Link](https://www.youtube.com/watch?v=MDULTzOmQFA)     |
 
-1. **Local Ingestion from Parquet Source**
-    - [Watch Tutorial #1](https://www.youtube.com/watch?v=s42-mGktIpg&list=PLL2hlSFBmWwz2lp7K8dMk8hWV1p_SNeBQ&index=1&t=1s&pp=gAQBiAQB)
 
-2. **Local Ingestion from CSV Source**
-    - [Watch Tutorial #2](https://www.youtube.com/watch?v=z1NAmGGHbHU&list=PLL2hlSFBmWwz2lp7K8dMk8hWV1p_SNeBQ&index=2)
-
-3. **Learn How to Ingest Multiple Tables using Hudi MultiTable Delta Streamer**
-    - [Watch Tutorial #3](https://www.youtube.com/watch?v=mfGb38TQmDY&list=PLL2hlSFBmWwz2lp7K8dMk8hWV1p_SNeBQ&index=3)
-
-4. **RFC-14: Step-by-Step Guide for Incremental Data Pull from Postgres to Hudi using DeltaStreamer**
-    - [Watch Tutorial #4](https://www.youtube.com/watch?v=kqQ0SVwfBig&list=PLL2hlSFBmWwz2lp7K8dMk8hWV1p_SNeBQ&index=4)
-
-5. **Learn How to Ingest Data Into Hudi Tables using Delta Streamer in continuous Mode and SQL transformer**
-    - [Watch Tutorial #5](https://www.youtube.com/watch?v=QVTSKf24heU&t=210s) <!-- Replace with the actual link when available -->
 
 
 # Hudi Example Setup
