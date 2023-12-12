@@ -16,7 +16,7 @@ Welcome to the Delta Streamer Series, a collection of hands-on guides and tutori
 | Learn How to use DeltaStreamer and ingest data from Kafka Topic Hands on Labs #6                                          | [Link](https://www.youtube.com/watch?v=uoIpw8lTBV0)     |
 | Real-Time Data: Postgres, Debezium, Kafka, Schema Registry, Delta Streamer #7 A                                             | [Link](https://www.youtube.com/watch?v=gypBM9Jpj9I)     |
 | Real-Time Data: Postgres, Debezium, Kafka, Schema Registry, Delta Streamer #7B Complete Video                             | [Link](https://www.youtube.com/watch?v=GIs-Y1VYIY8)     |
-| Learn How to Run Clustering in Async Mode with Delta Streamer in Continuous Mode | Hands on Labs |#8                       | [Link](https://www.youtube.com/watch?v=7WP4bxj_P3s)     |
+| Learn How to Run Clustering in Async Mode with Delta Streamer in Continuous Mode  Hands on Labs |#8                       | [Link](https://www.youtube.com/watch?v=7WP4bxj_P3s)     |
 | Learn How to use MinIO and Apache Hudi Delta Streamer with Hands on Lab #9                                                 | [Link](https://www.youtube.com/watch?v=bPR17-wvIXI)     |
 | How to use DeltaStreamer to Read Data From Hudi Source in Incremental Fashion (Bronze to Silver) #10                      | [Link](https://www.youtube.com/watch?v=MDULTzOmQFA)     |
 
