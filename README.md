@@ -19,7 +19,7 @@ Welcome to the Delta Streamer Series, a collection of hands-on guides and tutori
 | Learn How to Run Clustering in Async Mode with Delta Streamer in Continuous Mode  Hands on Labs |#8                       | [Link](https://www.youtube.com/watch?v=7WP4bxj_P3s)     |
 | Learn How to use MinIO and Apache Hudi Delta Streamer with Hands on Lab #9                                                 | [Link](https://www.youtube.com/watch?v=bPR17-wvIXI)     |
 | How to use DeltaStreamer to Read Data From Hudi Source in Incremental Fashion (Bronze to Silver) #10                      | [Link](https://www.youtube.com/watch?v=MDULTzOmQFA)     |
-
+| Apache Hudi Delta Streamer in Action: Python Publishing and AvroKafkaSource Consumption (#11 Guide)" #11                      | [Link](https://www.youtube.com/watch?v=FSpt4jSH_O0)     |
 
 
 
