@@ -1,0 +1,12 @@
+hoodie.datasource.write.recordkey.field=order_id
+hoodie.datasource.write.partitionpath.field=order_date
+hoodie.datasource.write.precombine.field=ts
+bootstrap.servers=localhost:7092
+auto.offset.reset=earliest
+hoodie.deltastreamer.source.kafka.topic=orders
+hoodie.deltastreamer.source.kafka.value.deserializer.class=org.apache.hudi.utilities.deser.KafkaAvroSchemaDeserializer
+schema.registry.url=http://localhost:8081/
+hoodie.deltastreamer.schemaprovider.registry.schemaconverter=
+hoodie.deltastreamer.schemaprovider.registry.url=http://localhost:8081/subjects/orders-value/versions/latest
+hoodie.deltastreamer.transformer.sql=SELECT *, CASE WHEN OP = 'D' THEN true ELSE false END AS _hoodie_is_deleted FROM <SRC> a
+hoodie.deltastreamer.schemaprovider.registry.targetUrl=http://localhost:8081/subjects/output_schema/versions/latest
