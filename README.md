@@ -47,8 +47,16 @@ brew install hadoop@3.7
 https://www.youtube.com/watch?v=0Quqj3DLC2w
 ```
 
+
 ### Step 4: Download Dataset and JAR Files
 * https://drive.google.com/drive/folders/1BwNEK649hErbsWcYLZhqCWnaXFX3mIsg?usp=share_link
+
+### Hudi Version 0.15.0
+* https://mvnrepository.com/artifact/org.apache.hudi/hudi-utilities-slim-bundle_2.12/0.15.0
+
+
+
+  #### Hudi Version 0.14.0
 * https://repo.maven.apache.org/maven2/org/apache/hudi/hudi-utilities-slim-bundle_2.12/0.14.0/
 
 ### Step 5: Create hudi_tbl.props
